@@ -1,0 +1,6 @@
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.deps.json
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.runtimeconfig.json
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.runtimeconfig.dev.json
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.dll
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.csprojResolveAssemblyReference.cache
+J:\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.AssemblyInfo.cs
