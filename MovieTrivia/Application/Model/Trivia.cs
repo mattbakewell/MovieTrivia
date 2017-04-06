@@ -12,5 +12,25 @@ namespace MovieTrivia.Model
 
         public Player PlayerOne { get; set; }
         public Player PlayerTwo { get; set; }
+        public string Status
+        {
+            get
+            {
+                var completedRounds = Rounds.Where(r => r.IsFinished);
+                if (completedRounds.Count() == 8)
+                    return "Finished";
+
+                return "In Progress";
+            }
+        }
+        public int Score(PlayerId whichPlayer)
+        {
+            var total = 0;
+            foreach (var round in Rounds)
+            {
+                total += round.Score(whichPlayer);
+            }
+            return total;
+        }
     }
 }

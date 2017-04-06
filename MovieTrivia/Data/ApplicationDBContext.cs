@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using MovieTrivia.Model;
 
-namespace MovieTrivia.Data
+namespace MovieTrivia
 {
     public class ApplicationDbContext : DbContext
     {
@@ -15,9 +15,6 @@ namespace MovieTrivia.Data
         {
 
             //dotnet ef migrations add 1
-
-
-
             //RPC over HTTP, but trying to use HTTP verbs appropriately".
             //RPC = Remote Procedure Call - basically calling 
             //code across the network.
