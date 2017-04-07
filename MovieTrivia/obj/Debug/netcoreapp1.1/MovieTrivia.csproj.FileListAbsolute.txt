@@ -6,3 +6,12 @@ J:\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.
 J:\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.pdb
 J:\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.dll
 J:\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.pdb
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.deps.json
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.runtimeconfig.json
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.runtimeconfig.dev.json
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.dll
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\bin\Debug\netcoreapp1.1\MovieTrivia.pdb
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.csprojResolveAssemblyReference.cache
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.AssemblyInfo.cs
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.dll
+C:\Users\210317\Documents\GitHub\MovieTrivia\MovieTrivia\obj\Debug\netcoreapp1.1\MovieTrivia.pdb

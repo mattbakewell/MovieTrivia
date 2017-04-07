@@ -1,0 +1,59 @@
+﻿@model Trivia
+
+<form asp-action="Answer" asp-controller="Trivia" method="POST" autocomplete="off">
+    <input type="hidden" asp-for="Id">
+    <input type="hidden" asp-for="Round.Id">
+    <input type="hidden" asp-for="PlayerId">
+    <div class="container row">
+        <h1>Movie Trivia</h1>
+        <p>You are currently viewing game number @Model.Id, round number @Model.Round.Counter as player @Model.PlayerId</p>
+        <div class="row">
+            <div class="col-md-12">
+                Curent Game status: @Model.Status
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Player One Score: @Model.PlayerOne.Score</p>
+                <p>Player One Status: @Model.GetPlayerStatus(1)</p>
+            </div>
+            <div class="col-md-6">
+                <p>Player Two Score: @Model.PlayerTwo.Score</p>
+                <p>Player Two Status: @Model.GetPlayerStatus(2)</p>
+            </div>
+        </div>
+        @if (Model.Status != "Finished")
+        {
+            <div class="row">
+                <div class="col-md-12"><h2>Current Title:  @Model.Round.Movie.Title</h2></div>
+            </div>
+        }
+        @if (Model.ShowAnswer)
+        {
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Answer"></label>
+                        <div>
+                            <input class="form-control" type="text" asp-for="Answer" tabindex="1" autofocus></input>
+                            <span asp-validation-for="Answer" class="text-danger"></span>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary">
+                            Give an Answer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            @if (Model.Status != "Finished")
+            {
+                <p>Waiting for other player.  Please refresh your browser</p>
+                <p>Implement  SignalR or similar push notification mechanism</p>
+            }
+        }
+    </div>
+</form>
